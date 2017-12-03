@@ -49,6 +49,7 @@
     <Compile Include="Day1_2.cs" />
     <Compile Include="Day1.cs" />
     <Compile Include="Day2.cs" />
+    <Compile Include="Day2_2.cs" />
     <Compile Include="ISolver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

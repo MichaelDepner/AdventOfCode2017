@@ -21,6 +21,8 @@ namespace AdventOfCode2017
             var day2Input = Properties.Resources.Day2;
             var day2 = new Day2();
             Console.WriteLine( day2.Solve( day2Input ) );
+            var day2_2 = new Day2_2();
+            Console.WriteLine( day2_2.Solve( day2Input ) );
 
             Console.ReadKey();
         }
