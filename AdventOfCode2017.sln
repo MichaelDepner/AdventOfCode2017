@@ -7,10 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode2017", "AdventO
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Day1|Any CPU = Day1|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11150E14-54C2-4DF8-B840-DB8FDEAC68B8}.Day1|Any CPU.ActiveCfg = Day1|Any CPU
+		{11150E14-54C2-4DF8-B840-DB8FDEAC68B8}.Day1|Any CPU.Build.0 = Day1|Any CPU
+		{11150E14-54C2-4DF8-B840-DB8FDEAC68B8}.Day1|Any CPU.Deploy.0 = Day1|Any CPU
 		{11150E14-54C2-4DF8-B840-DB8FDEAC68B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{11150E14-54C2-4DF8-B840-DB8FDEAC68B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11150E14-54C2-4DF8-B840-DB8FDEAC68B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
