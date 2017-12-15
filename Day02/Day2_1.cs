@@ -4,7 +4,7 @@ using Utils;
 
 namespace Day02
 {
-    class Day2_1 : ISolver
+    public class Day2_1 : ISolver
     {
         public string PuzzleName => "Day 2 Part 1";
 
