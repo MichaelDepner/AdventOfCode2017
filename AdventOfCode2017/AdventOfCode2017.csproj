@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Day1_2.cs" />
-    <Compile Include="Day1.cs" />
-    <Compile Include="Day2.cs" />
-    <Compile Include="Day2_2.cs" />
-    <Compile Include="ISolver.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>

@@ -1,13 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace AdventOfCode2017
+namespace Utils
 {
     public interface ISolver
     {
-        string Solve( string input );
+        string PuzzleName
+        {
+            get;
+        }
+
+        string Solve(string input);
     }
 }

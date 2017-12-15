@@ -1,23 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Utils;
 
-namespace AdventOfCode2017
+namespace Day01
 {
-    public class Day1 : ISolver
+    class Day1_1 : ISolver
     {
-        public string Solve( string input )
+        public string PuzzleName => "Day 1 Part 1";
+
+        public string Solve(string input)
         {
             var list = input.ToCharArray()
-                .Select( x => Convert.ToInt32( Char.GetNumericValue( x ) ) );
+                .Select(x => Convert.ToInt32(Char.GetNumericValue(x)));
 
             int sum = 0;
             var previous = list.Last();
             foreach (var element in list)
             {
-                if ( element == previous )
+                if (element == previous)
                 {
                     sum += element;
                 }
